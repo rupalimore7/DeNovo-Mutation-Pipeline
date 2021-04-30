@@ -16,9 +16,13 @@ DeNovo-Mutation-Pipeline is tested on the following platform:
 4. ANNOVAR tab-delimted annotated output file (Wang K, Li M, Hakonarson H. ANNOVAR: Functional annotation of genetic variants from next-generation sequencing data, Nucleic Acids Research, 38:e164, 2010).
 
 Following file paths need to mention in DeNovo-Mutation-Pipeline.sh file befor running:
+
 DeNovo-Mutation-Pipeline_dir="/softwares/DeNovo-Mutation-Pipeline"
+
 reference="/databases/b37/Ensembl_GRCh37.ordered.fa"
+
 dbsnp="/databases/dbsnp_138.hg19.vcf"
+
 softwares="/softwares"
 
 ### Usage
