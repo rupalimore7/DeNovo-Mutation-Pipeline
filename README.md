@@ -50,7 +50,7 @@ trio.family_1.sample_1.mpileup.output.snp.vcf.denovo_result.txt.ann
 Manuscript is in preparation.
 
 ## Contact
-For technical queries, please write to Dr. Ravi Prabhakar More on email rm975@medschl.cam.ac.uk, ravipmore7@gmail.com
+For technical queries, please write email to Mrs. Rupali Ravi More at rupalirmore77@gmail.com
 
 ## Contributors
 Developed by: Mrs. Rupali Ravi More
