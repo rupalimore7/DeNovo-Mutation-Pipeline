@@ -4,7 +4,8 @@ De Novo Mutation variant calling and filtering analysis pipeline using WES data
 # DeNovo-Mutation-Pipeline
 ## De Novo Mutation variant calling and filtering analysis pipeline using WES data
 ### Introduction
-#### DeNovo-Mutation-Pipeline is denovo variant analysis and filtering pipeline for the WES sequencing data, which call the SNP/INDEL variants based on trios (Father, Mother and Child) in the family. This tool filters SNP/INDEL variants by referring Annovar tool text file based on three main criteria : 1) Damaging variants based on in silico predictions algorithms (SIFT or PolyPhene) for SNP and Frameshift/Nonfremeshift/Stopgain/Stoploss variants for INDEL. 2) Rare variants (<=1%) in the non-Finnish population (NFE) as per GnomAD database, and 3) Variants absent in controls.
+#### DeNovo-Mutation-Pipeline is denovo variant analysis and filtering pipeline for the WES sequencing data, which call the SNP/INDEL variants based on trios (Father, Mother and Child) in the family. This tool filters SNP/INDEL variants by referring Annovar tool text file based on main criterias : 1) Heterozygous genotype in the offspring with alternate frequencies between 0.3 and 0.7 and not identified in parents. 2) Alternate allele frequency in the proband is supported by >= 8 reads. 3) Sequencing depth of the position at least 20 reads in proband and parents. 4) Damaging variants based on in silico predictions algorithms (SIFT or PolyPhene or CADD phred score >=20) for SNP and Frameshift/Nonfremeshift/Stopgain/Stoploss variants for INDEL. 5) Rare variants (<=1%) in the South Asian (SAS) population as per ExAC databases.
+
 
 DeNovo-Mutation-Pipeline is developed as part of SeSAME syndrome familiy study. Please read the README file before using this tool.
 
